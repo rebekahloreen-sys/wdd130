@@ -7,16 +7,21 @@
     box-sizing: border-box;
 }
 nav {
+    display: flex;
     background-color: rgb(56, 86, 75);
     padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 h1 {
     color: darkblue;
+    border-bottom: solid 1px black;
     padding: 1rem;
 }
 img {
@@ -62,7 +67,14 @@ footer {
     margin-top: 20px;
     border-top: 2px solid darkgrey;
     text-align: center;
+    color: beige;
     background-color: rgb(122, 121, 121);
+}
+header, footer, .grid{
+    display: grid;
+    max-width: 840px;
+    margin: 0 auto;
+
 }
 
 /* Class Selectiors */
@@ -73,3 +85,17 @@ footer {
     background-color: azure;
     color: #333;
 }
+.grid {
+    display: grid;
+    align-items: center;
+}
+    main {
+        grid-column: 2/3;
+        margin: 1rem;
+    }
+    aside {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+        width: 20rem;
+    }
