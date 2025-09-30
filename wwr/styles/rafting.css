@@ -19,6 +19,34 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+header {
+    display: grid;
+    background-color: var(--accent1-color);
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+    
+}
+header img {
+    max-width: 150px;
+    height: auto;
+    justify-self: center;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+    margin: 0;
+    justify-content: space-around;
+    overflow: hidden;
+}
+header li {
+    border: solid var(--primary-color) 2px;
+    padding: 5px 8px;
+    text-align: center;
+    flex: 1;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
