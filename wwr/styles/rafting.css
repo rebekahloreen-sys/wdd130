@@ -52,15 +52,15 @@ h1, h2 {
     color: var(--primary-color);
 }
 .hero h1 {
-  position: absolute;
-  top: 15px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.8;
-  background-color: var(--primary-color);
-  color: var(--secondary-color)
-}
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+    }
 h2 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -96,6 +96,80 @@ button {
 .socialmedia a {
     text-decoration: none;
 }
+.hero-main {
+    position: relative;
+    width: 100%;
+}
+
+.hero-main img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-main h1 {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+.newsletter {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    margin-top: 40px;
+    display: grid;
+}
+.newsletter label{
+    margin-top: 10px;
+}
+.newsletter input{
+    padding-top: 10px;
+    background-color: #f9f3e8;
+    border: solid 1px var(--primary-color);
+}
+.newsletter button {
+    margin: 1rem;
+    width: 90%;
+    background-color: #e9e2d5;
+    border: solid 2px var(--primary-color);
+    border-radius: .2rem;
+    margin-left: 30px;
+    padding: .7rem;
+    font-size: 1rem;    
+}
+.trips-button {
+    text-align: center;
+    color: var(--accent1-color);
+}
+.trips-button p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.trips-button a {
+    text-decoration: none;
+    color:var(--primary-color);
+    padding: 10px;
+    background-color:wheat;
+    border: solid 2px var(--primary-color);
+    border-radius: .2rem;    
+}
+.info-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    border: solid 2px var(--primary-color);
+    border-radius: .2rem;
+}
+.info-item img {
+    width: 100%;
+    height: auto;
+}
 .hero {
     position: relative;
 }
@@ -105,17 +179,17 @@ button {
     height: auto;
 }
 .hero article img {
-  float: right;
-  width: 110px;
+    float: right;
+    width: 110px;
 }
 .hero article {
-  position: absolute;
-  bottom: 5px;
-  width: 95%;
-  padding: 5px;
-  opacity: 0.8;
-  background-color: var(--primary-color);
-  color: var(--secondary-color)
+    position: absolute;
+    bottom: 5px;
+    width: 95%;
+    padding: 5px;
+    opacity: 0.8;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
 }
 .contact-info{
     text-align: center;
