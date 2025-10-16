@@ -327,6 +327,41 @@ button {
 
     margin-top: 0.6rem;
 }
+.cta-contact {
+    text-align: center;
+}
+
+.cta-contact a {
+    text-decoration: none;
+    color:var(--primary-color);
+    padding: 10px;
+    background-color:wheat;
+    border: solid 2px var(--primary-color);
+    border-radius: .2rem;  
+}
+.trips {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.trip img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+    color:var(--accent1-color)
+}
 footer {
     padding: 10px;
     border-top: solid var(--accent1-color) 1px;
